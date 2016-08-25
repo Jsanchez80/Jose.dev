@@ -7,7 +7,8 @@ Author:     ThemeWagon
 TABLE OF CONTENTS
 
     01 - NavBar
-    02 - Main Content Section
+    02 - Preloader
+    03 - Main Content Section
     
     
 */
@@ -23,7 +24,10 @@ TABLE OF CONTENTS
     background: #000;
     border-color: #000;
     border-radius: 0px;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     z-index: 899;
 }
 
@@ -66,7 +70,22 @@ TABLE OF CONTENTS
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  02 - Main Content Section
+//  02 - Preloader
+/////////////////////////////////////////////////////////////////////*/
+#preloader { 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 99999999999; 
+    width: 100%; 
+    height: 100%; 
+    overflow: visible; 
+    background: #fff url('../img/preloader.gif') 
+    no-repeat center center; 
+}
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  03 - Main Content Section
 /////////////////////////////////////////////////////////////////////*/
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -77,7 +96,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0em;
   background-color: #F8F8FF;
-  background-image: url(../assets/bg-about.png) repeat;;
+  background: url('/assets/bg-about.png') repeat;;
   color: #666;
 }
 
@@ -200,6 +219,7 @@ footer hr {
 .container {
   max-width: 50em;
   width:92%;
+  background-image: url('/img/cubes.png');
   margin-right: auto;
   margin-left: auto;
 }
@@ -393,5 +413,14 @@ footer hr {
     text-align: left;
   }
   
+}
+
+/*1368px - */
+
+@media (min-width: 1368px) {
+    .logo {
+        padding: 30px 0px;
+        top: 2%;
+    }
 }
 
