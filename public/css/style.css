@@ -77,7 +77,7 @@ body {
     position: relative;
 }
 a {
-    color: #9c27b0;
+    color: #ff4dff;
 }
 a:hover,
 a:focus,
@@ -384,7 +384,10 @@ p {
 }
 #contact p{
     color: #fff;
+    background-color:#0c1c4a;
+    opacity: .8;
 }
+
 .afsana-style, .afsana-form textarea {
     background: transparent;
     border-radius: 0px;
@@ -397,6 +400,7 @@ p {
     padding: 0.5em;
     font-size: 1.3em;
 }
+
 .afsana-style:hover, .afsana-form textarea:hover,
 .afsana-style:active, .afsana-form textarea:active ,
 .afsana-style:focus, .afsana-form textarea:focus {
@@ -404,6 +408,7 @@ p {
     box-shadow: none;
     border-color: #9c27b0!important;
 }
+
 .afsana-btn {
     font-size: 1.5em;
     padding: 0.6em 0;
@@ -413,22 +418,26 @@ p {
     border-color: #9c27b0;
     margin-top: -15px;
 }
+
 .afsana-btn:hover {
     background: transparent;
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
 }
+
 .facebook-box {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
+
 .facebook-box iframe {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
+
 .social-icons ul {
     padding: 0;
     margin: 6px 0 0;
@@ -660,12 +669,15 @@ p {
         -ms-transform: translate(-50%, 30%);
         -o-transform: translate(-50%, 30%);
     }
+
     #contact-form {
         margin-bottom: 40px;
     }
+
     .form-group.col-xs-2.push-btn-left {
         padding-right: 6px;
     }
+
     .push-btn-left {
         margin-left: -35px;
     }
