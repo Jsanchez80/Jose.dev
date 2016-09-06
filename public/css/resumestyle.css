@@ -135,7 +135,7 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(/img/background.jpg);
+  background-image: url('img/background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -219,7 +219,7 @@ footer hr {
 .container {
   max-width: 50em;
   width:92%;
-  background-image: url('/img/cubes.png');
+  background-image: url('img/cubes.png');
   margin-right: auto;
   margin-left: auto;
 }
