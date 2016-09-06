@@ -23,7 +23,7 @@
 			<input type="checkbox" id="mailing_list" name="mailing_list" value="yes" checked>
 		<form>
 			<label for="Remember Me">Remember Me?</label>
-			<a href="codeup.dev/reg.php"><h5><font color="white">Create Account</font></h5></a>
+			<a href="jose.dev/reg.php"><h5><font color="white">Create Account</font></h5></a>
 		</form>
 	</body>
 </html>
