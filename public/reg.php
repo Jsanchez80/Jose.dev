@@ -19,9 +19,8 @@
     		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 			</head>
-		<body bgcolor="#00688B">
+			<body bgcolor="#00688B">
 			<img src="/img/envi logo.png">
-	
 <!--The use of the <br> tag within the label allows the text to display above the input box without the use of CSS.  This style of code may not be the most efficient, however gives the style feature a clean look and ultimately achieves the desired result. Research the proper use of code tags to give a streamlined flow to your script. !-->
 			<font color="white">
 			<hr>
@@ -45,7 +44,7 @@
 				</label>
 					<input id="email address" name="email address" type="text" size="30" placeholder="Email Address...">
 				<hr>
-				<h1>Create your User Login:</h1>
+				<h1>Create Your User Login:</h1>
 				<!-- Inserted the breaks<br></br> for spacing purposes.  We haven't begun using CSS for styling yet. We will begin CSS on 7/21/16!-->
 				<label for="username"><strong>Username:
 					<br></strong>
