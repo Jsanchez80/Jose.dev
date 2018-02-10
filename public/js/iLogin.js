@@ -1,5 +1,5 @@
-var username = "iWorks";
-var password = "password";
+var username = "";
+var password = "";
 
 
 	function verifyUser() {
