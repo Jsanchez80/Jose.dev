@@ -76,6 +76,10 @@ body {
   color: #666;
 }
 
+.bgd {
+  background-color: #5898bc;
+}
+
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
