@@ -39,7 +39,7 @@ new WOW().init();
 
 
 // Count Down Timer
-var countDownEndDate = '1 January 2017';  // specify your count down timer here
+var countDownEndDate = '16 February 2018';  // specify your count down timer here
 $('.countdown').final_countdown({
     start : new Date().getTime() / 1000,
     end   : new Date(countDownEndDate).getTime() / 1000,
